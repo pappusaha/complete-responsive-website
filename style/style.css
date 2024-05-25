@@ -222,6 +222,12 @@ align-items: center;
     margin: 20px 0;
     
 }
+img:hover{
+    transform: scale(1.5);
+}
+img{
+    transition: transform .5s ;
+}
 /* mobile device responsive  */
 
 @media screen and (max-width:576px) {
